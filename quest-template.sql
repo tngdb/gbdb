@@ -1,3 +1,12 @@
+#############################################################################
+#####									#####
+#####         GGGGGG	  BBBBBBB        DDDDDDD    BBBBBBB 		#####
+#####        GG      	  B      B       D     DD   B      B   		#####
+#####       GG    GGG	  BBBBBBB        D      D   BBBBBBB    		#####
+#####        GG     GG    B      B       D     DD   B      B   		#####
+#####         GGGGGGG	  BBBBBBB        DDDDDDD    BBBBBBB    		#####
+#####  			      	     					#####
+#############################################################################
 UPDATE `quest_template` SET `Title`='Der Ruf des Weltschamanen', `Details`='Der Irdene Ring ruft Ihnen noch einmal, $N.$B$BAs ein Mitglied der Verbindung zu, ich weiß, dass Sie Bedenken haben können, die mit demjenigen arbeiten, den Sie Leibeigenen, der ehemalige Warchief der Horde nennen. Aber er hat um einen Verbindungshelden spezifisch gebeten, ihn in seinem folgenden Versuch zu begleiten, ein Ritual der Heilung, die unsere Welt $B$BCast beiseite Ihre Zweifel, $c tief zusammenpressen, und den Anruf $B$BYou des Weltschamanen beachten wird, wird ihn unter den Ästen von Nordrassil im Gestell Hyjal auf der südlichen Seite des Baums finden.' WHERE `entry`=29439 LIMIT 1;
 UPDATE `quest_template` SET `Objectives`='Sprechen Sie mit dem Leibeigenen gerade im Süden vom Weltbaum im Gestell Hyjal.' WHERE `entry`=29439 LIMIT 1;
 UPDATE `quest_template` SET `Title`='Der Ruf des Weltschamanen' WHERE `entry`=29440 LIMIT 1;
